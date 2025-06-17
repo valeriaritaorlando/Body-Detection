@@ -1,6 +1,8 @@
 Questo progetto ha come obiettivo la realizzazione di un sistema di pedestrian detection basato su LinearSVC, HOG descriptor e PCA. Abbiamo implementato un sistema completo di detection con procedura multi-scale sliding window e non-maxima suppression, confrontando le performance con e senza preprocessing PCA.
 
 Requisiti: Python 3.x , scikit-learn, numpy, matplotlib, opencv-python
+
+
 File principali: 
   extract_hog.py: Estrazione HOG features
   train_model.py: Addestramento e selezione iperparametri
