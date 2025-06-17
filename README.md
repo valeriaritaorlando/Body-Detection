@@ -12,10 +12,10 @@ File principali:
   visualize.py: Visualizzazione risultati con bounding box
   
   
-Successi:    Buona rilevazione anche in ambienti affollati (es. 009616.jpg)
+Successi:    Buona rilevazione anche in ambienti affollati.
              Individuati soggetti che l'OpenCV detector ha ignorato
 
-Fallimenti:  Falsi positivi su strutture lineari (es. finestre, edifici in 005907.jpg)
+Fallimenti:  Falsi positivi su strutture lineari (es. finestre, edifici)
              Il nostro detector ha mostrato migliori capacità di individuazione di pedoni isolati
 
 
